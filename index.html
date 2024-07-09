@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Social Media App</h1>
+        <!-- Navigation links -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Post creation form -->
+        <form id="post-form">
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="post-image" accept="image/*, video/*">
+            <button type="submit">Post</button>
+        </form>
+
+        <!-- Display posts -->
+        <section id="post-list">
+            <!-- Posts will be dynamically added here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Social Media App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
